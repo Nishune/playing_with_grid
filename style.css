@@ -1,6 +1,7 @@
 body {
     display: flex;
     justify-content: center;
+    background-color: #454747;
 }
 
 .container{
@@ -9,17 +10,25 @@ body {
     grid-template-columns: repeat(48, 25px);
     
     border-radius: 100%;
-    border: 2px solid black;
+    border: 10px solid black;
 }
 .leftEye {
     background-color: black;
     grid-row: 13 / 16;
     grid-column: 15 / 18;
+    border-radius: 100%;
 }
 .rightEye {
     background-color: black;
     grid-row: 13 / 16;
     grid-column: 34 / 37;
+    border-radius: 100%;
+}
+.lefteyebrow1{
+    background-color: white;
+    grid-row: 11 / 11;
+    grid-column: 18 / 18;
+
 }
 .nose1{
     background-color: black;
@@ -121,32 +130,32 @@ body {
 
 .mouth1{
     background-color: red;
-    grid-row: 29 / 29;
+    grid-row: 29 / 31;
     grid-column: 14 / 14;
 }
 .mouth2{
     background-color: red;
-    grid-row: 30 / 30;
+    grid-row: 30 / 32;
     grid-column: 15 / 15;
 }
 .mouth3{
     background-color: red;
-    grid-row: 31 / 31;
+    grid-row: 31 / 33;
     grid-column: 16 / 16;
 }
 .mouth4{
     background-color: red;
-    grid-row: 32 / 32;
+    grid-row: 32 / 34;
     grid-column: 17 / 17;
 }
 .mouth5{
     background-color: red;
-    grid-row: 33 / 33;
+    grid-row: 33 / 35;
     grid-column: 18 / 18;
 }
 .mouth6{
     background-color: red;
-    grid-row: 34 / 34;
+    grid-row: 34 / 36;
     grid-column: 19 / 19;
 }
 .mouth7{
@@ -156,16 +165,167 @@ body {
 }
 .mouth8{
     background-color: red;
-    grid-row: 34 / 34;
+    grid-row: 34 / 36;
     grid-column: 25 / 27;
 }
 .mouth9{
     background-color: red;
-    grid-row: 33 / 33;
+    grid-row: 33 / 35;
     grid-column: 27 / 29;
 }
 .mouth10{
     background-color: red;
-    grid-row: 32 / 32;
+    grid-row: 32 / 34;
     grid-column: 29 / 31;
+}
+.mouth11{
+    background-color: red;
+    grid-row: 31 / 33;
+    grid-column: 31 / 33;
+}
+.mouth12{
+    background-color: red;
+    grid-row: 30 / 32;
+    grid-column: 33 / 35;
+}
+.mouth13{
+    background-color: red;
+    grid-row: 29 / 31;
+    grid-column: 35 / 39;
+}
+.mouth14{
+    background-color: red;
+    grid-row: 28 / 30;
+    grid-column: 39 / 42;
+}
+.mouth15{
+    background-color: red;
+    grid-row: 29 / 31;
+    grid-column: 42 / 42;
+}
+.mouth16{
+    background-color: red;
+    grid-row: 30 / 32;
+    grid-column: 43 / 43;
+}
+.mouth17{
+    background-color: red;
+    grid-row: 31 / 33;
+    grid-column: 44 / 44;
+}
+.mouth18{
+    background-color: red;
+    grid-row: 32 / 35;
+    grid-column: 45 / 45;
+}
+.mouth19{
+    background-color: red;
+    grid-row: 35 / 35;
+    grid-column: 44 / 46;
+}
+.mouth20{
+    background-color: red;
+    grid-row: 36 / 36;
+    grid-column: 43 / 45;
+}
+.mouth21{
+    background-color: red;
+    grid-row: 37 / 37;
+    grid-column: 42 / 44;
+}
+.mouth22{
+    background-color: red;
+    grid-row: 38 / 38;
+    grid-column: 41 / 43;
+}
+.mouth23{
+    background-color: red;
+    grid-row: 39 / 39;
+    grid-column: 40 / 42;
+}
+.mouth24{
+    background-color: red;
+    grid-row: 40 / 40;
+    grid-column: 39 / 41;
+}
+.mouth25{
+    background-color: red;
+    grid-row: 41 / 41;
+    grid-column: 38 / 40;
+}
+.mouth26{
+    background-color: red;
+    grid-row: 42 / 42;
+    grid-column: 37 / 39;
+}
+.mouth27{
+    background-color: red;
+    grid-row: 43 / 43;
+    grid-column: 36 / 38;
+}
+.mouth28{
+    background-color: red;
+    grid-row: 29 / 37;
+    grid-column: 13 / 13;
+}
+.mouth29{
+    background-color: red;
+    grid-row: 36 / 38;
+    grid-column: 14 / 14;
+}
+.mouth30{
+    background-color: red;
+    grid-row: 37 / 39;
+    grid-column: 15 / 15;
+}
+.mouth31{
+    background-color: red;
+    grid-row: 38 / 40;
+    grid-column: 16 / 16;
+}
+.mouth32{
+    background-color: red;
+    grid-row: 39 / 41;
+    grid-column: 17 / 17;
+}
+.mouth33{
+    background-color: red;
+    grid-row: 40 / 42;
+    grid-column: 18 / 18;
+}
+.mouth34{
+    background-color: red;
+    grid-row: 41 / 43;
+    grid-column: 19 / 19;
+}
+.mouth35{
+    background-color: red;
+    grid-row: 42 / 44;
+    grid-column: 20 / 20;
+}
+.mouth36{
+    background-color: red;
+    grid-row: 43 / 45;
+    grid-column: 21 / 21;
+}
+.mouth37{
+    background-color: red;
+    grid-row: 44 / 44;
+    grid-column: 22 / 37;
+}
+.mouth38{
+    background-color: white;
+    grid-row: 31 / 36;
+    grid-column: 34 / 38;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.mouth39{
+    background-color: white;
+    grid-row: 38 / 44;
+    grid-column: 22 / 26;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
 }
