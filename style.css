@@ -1,0 +1,171 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(48, 25px);
+    grid-template-columns: repeat(48, 25px);
+    
+    border-radius: 100%;
+    border: 2px solid black;
+}
+.leftEye {
+    background-color: black;
+    grid-row: 13 / 16;
+    grid-column: 15 / 18;
+}
+.rightEye {
+    background-color: black;
+    grid-row: 13 / 16;
+    grid-column: 34 / 37;
+}
+.nose1{
+    background-color: black;
+    grid-row: 21 / 21;
+    grid-column: 25 / 25
+}
+.nose2{
+    background-color: black;
+    grid-row: 22 / 22;
+    grid-column: 25 / 28;
+}
+.nose3{
+    background-color: black;
+    grid-row: 23 / 23;
+    grid-column: 26 / 30;
+}
+.nose4{
+    background-color: black;
+    grid-row: 22 / 22;
+    grid-column: 29 / 31;
+}
+.nose5{
+    background-color: black;
+    grid-row: 21 / 21;
+    grid-column: 31 / 33;
+}
+.nose6{
+    background-color: black;
+    grid-row: 20 / 20;
+    grid-column: 32 / 34;
+}
+.nose7{
+    background-color: black;
+    grid-row: 19 / 19;
+    grid-column: 33 / 36;
+}
+.nose8{
+    background-color: black;
+    grid-row: 18 / 18;
+    grid-column: 35 / 38;
+}
+.nose9{
+    background-color: black;
+    grid-row: 19 / 19;
+    grid-column: 38 / 40;
+}
+.nose10 {
+    background-color: black;
+    grid-row: 20 / 20;
+    grid-column: 39 / 41;
+}
+.nose11{
+    background-color: black;
+    grid-row: 21 / 21;
+    grid-column: 40 / 42;
+}
+.nose12{
+    background-color: black;
+    grid-row: 22 / 24;
+    grid-column: 41 / 41;
+}
+.nose13{
+    background-color: black;
+    grid-row: 24 / 24;
+    grid-column: 40 / 42;
+}
+.nose14{
+    background-color: black;
+    grid-row: 25 / 25;
+    grid-column: 39 / 41;
+}
+.nose15{
+    background-color: black;
+    grid-row: 26 / 26;
+    grid-column: 38 / 40;
+}
+.nose16{
+    background-color: black;
+    grid-row: 27 / 27;
+    grid-column: 39 / 33;
+}
+.nose17{
+    background-color: black;
+    grid-row: 26 / 26;
+    grid-column: 31 / 34;
+}
+.nose18{
+    background-color: black;
+    grid-row: 25 / 25;
+    grid-column: 30 / 32;
+}
+.nose19{
+    background-color: black;
+    grid-row: 24 / 24;
+    grid-column: 28 / 31;
+}
+
+/*Starting mouth here */
+
+.mouth1{
+    background-color: red;
+    grid-row: 29 / 29;
+    grid-column: 14 / 14;
+}
+.mouth2{
+    background-color: red;
+    grid-row: 30 / 30;
+    grid-column: 15 / 15;
+}
+.mouth3{
+    background-color: red;
+    grid-row: 31 / 31;
+    grid-column: 16 / 16;
+}
+.mouth4{
+    background-color: red;
+    grid-row: 32 / 32;
+    grid-column: 17 / 17;
+}
+.mouth5{
+    background-color: red;
+    grid-row: 33 / 33;
+    grid-column: 18 / 18;
+}
+.mouth6{
+    background-color: red;
+    grid-row: 34 / 34;
+    grid-column: 19 / 19;
+}
+.mouth7{
+    background-color: red;
+    grid-row: 35 / 35;
+    grid-column: 20 / 25;
+}
+.mouth8{
+    background-color: red;
+    grid-row: 34 / 34;
+    grid-column: 25 / 27;
+}
+.mouth9{
+    background-color: red;
+    grid-row: 33 / 33;
+    grid-column: 27 / 29;
+}
+.mouth10{
+    background-color: red;
+    grid-row: 32 / 32;
+    grid-column: 29 / 31;
+}
